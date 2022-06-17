@@ -1,0 +1,274 @@
+/* reset CSS */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box  ;
+}
+
+#header {
+     width: 100%;   
+    background-color: rgb(255, 184, 184);
+}
+
+#header .name-header {
+    margin-left: 20%;
+}
+
+
+#main {
+    
+}
+
+#slider{
+    width: 100%;
+
+}
+
+#slider .banner {
+    width: 100%;
+}
+
+#content{
+ margin: 10px;
+}
+#nav-left{
+    margin-left: 10px;
+    position: relative;
+    width: 60%;
+
+}
+#about-backgroup{
+    margin-top: 4px;
+padding: 0px 0px 1px;
+border-radius: 6px;
+background-color: #efefef;
+}
+.about-tittle{
+
+}
+
+.about-tittle .tittle {
+    border-radius: 6px 6px 0px 0px;
+    position: relative;
+    height: 54px;
+    top: 0px;
+    background-color: #ff8429;
+
+}
+
+.tittle .name-tittle-about {
+    position: relative;
+    left: 120px;
+    top: 17px;
+}
+.tittle .img-tittle-about {
+    position: relative;
+    bottom: 60px;
+}
+
+
+.about-text{
+    border-radius: 6px;
+    background-color: #efefef;
+    text-align: justify;
+
+}
+
+.text-backgroup {
+    border-radius: 6px;
+    background-color: #fff;
+    margin: 10px;
+    display: inline-block;
+
+}
+
+.text-backgroup .text{
+   
+
+}
+#rank-lol{
+    margin-top: 32px;
+    background-color: #ffc4c4;
+    border-radius: 6px;
+}
+.tittle-rank{
+}
+
+.backgroup-tittle-rank {
+    height: 80px;
+    border-radius: 6px 6px 0px 0px;
+    background-color: #fe7686;
+}
+
+.backgroup-tittle-rank img.medal {
+    position: relative;
+    bottom: 48px;
+    left: 7px;
+    
+}
+
+.backgroup-tittle-rank p.name-tittle-rank {
+    position: relative;
+    top: 44px;
+    left: 86px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.backgroup-tittle-rank img.yeah {
+    position: relative;
+    bottom: 93px;
+
+}
+
+.tittle-rank-1{
+    display: grid;
+
+}
+
+
+.backgroup-tittle-rank1 {
+    margin: 16px 16px 0px;
+    background: #fffeca;
+    border-radius: 6px 6px 0px 0px;
+    height: 73px;
+}
+
+p.name-tittle-rank-1 {
+    position: relative;
+    left: 72px;
+    top: 22px;
+}
+
+img.rank1 {
+    position: relative;
+    bottom: 26px;
+}
+.content-rank-1{
+    border-radius: 0px 0px 6px 6px;
+    margin: 1px 16px 6px;
+    display: inline-block;
+    background-color: #fff;
+}
+
+.backgroup-content-rank-1{
+    display: flex;
+    margin: 10px 10px 10px 10px;
+}
+.content-one{
+    margin-right: 5px;
+}
+.content-two{
+
+}
+
+button.btn-bargroud {
+    background-color: blue;
+    width: 100%;
+}
+
+i.ti-arrow-circle-right {
+    margin-right: 6px;
+}
+
+table.table-1 {
+    margin: 20px;
+    width: 94%;
+    background-color: #cdcdcd;
+}
+
+
+.table-1 .row1 {
+    padding: 6px;
+    width: 40%;
+    background-color: #ececec;
+}
+
+.table-1 .row2 {
+    background-color: #fff;
+    padding-left: 31px;
+}
+
+.col {
+    color: #fe7686;
+}
+.col-help {
+    width: 180px;
+    
+}
+.col-2 {
+    color: #ffff;
+}
+
+#nav-right{
+    position: absolute;
+    top: 286px;
+    right: 12%;
+}
+#footer{
+    height: 100px;
+    width: 100%;
+    background-color: #fe7686;
+}
+#footer p {
+    position: relative;
+    left: 7px;
+    top: 46px;
+    text-align: center;
+
+}
+.backgroup-nav-1 {
+    
+    box-shadow: 0 0 20px #ccc;
+    padding: 4px;
+    border-radius: 6px;
+}
+.nav-tittle{
+    border-radius: 6px 6px 0px 0px;
+    height: 40px;
+    display: flex;
+    background-color: #fe7a8c;
+
+}
+
+.bl {
+    margin-top: 10px;
+} 
+.list {
+    padding: 0px 1px 0px 0px;
+    list-style: none;
+    background-color: #ccc;
+
+}
+li.list-1 {
+    margin-bottom: 1px;
+    padding: 6px 0px 6px 0px;
+    background-color: #f6f6f6;
+}
+.no-padding {
+    margin-bottom: 0 !important;
+}
+
+@media screen and (max-width:740px) {
+    #nav-right {
+        margin: 0;
+    padding: 0 10px;
+    position: unset;
+    /* width: 100%; */
+    }
+    #nav-left {
+        padding: 0 10px;
+        margin: 0;
+        width: 100%;
+        margin-left: 10px;
+        position: unset;
+    }
+
+    .backgroup-content-rank-1 {
+        display: block;
+        
+    }
+    
+}
